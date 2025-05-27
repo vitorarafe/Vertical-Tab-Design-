@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Vertical Tabs | CodingLab Faz o L</title>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="main-title">CSS Vertical Tabs</div>
+    <div class="content">
+      <input type="radio" name="indicator" id="home" checked>
+      <input type="radio" name="indicator" id="blog">
+      <input type="radio" name="indicator" id="help">
+      <input type="radio" name="indicator" id="code">
+      <input type="radio" name="indicator" id="about">
+
+      <div class="list">
+        <label for="home" class="home">
+          <i class="fas fa-home"></i>
+          <span class="topic">Home</span>
+        </label>
+        <label for="blog" class="blog">
+          <i class="fas fa-blog"></i>
+          <span class="topic">Blog</span>
+        </label>
+        <label for="help" class="help">
+          <i class="fas fa-envelope"></i>
+          <span class="topic">Help</span>
+        </label>
+        <label for="code" class="code">
+          <i class="fas fa-code"></i>
+          <span class="topic">Code</span>
+        </label>
+        <label for="about" class="about">
+          <i class="fas fa-user"></i>
+          <span class="topic">About</span>
+        </label>
+        <div class="indicator"></div>
+      </div>
+
+      <div class="text-content">
+        <div class="home text">Essa é a home, seja Bem-vindo</div>
+        <div class="blog text">Bem-vindo ao Blog</div>
+        <div class="help text">Precisa de ajuda?</div>
+        <div class="code text">Verifique o código</div>
+        <div class="about text">Sobre nós</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
